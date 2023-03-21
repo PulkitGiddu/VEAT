@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.VEat">
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vit_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vit_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodDeliverForTrain"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.example.VEat.restaurant.MessageActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.VEat.Token"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.VEat.rider.RiderUserLocation"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAstRLiJWR9LOpxICg2CdXkGFbTZSV41BA" />
+
+        <activity
+            android:name="com.example.VEat.rider.RiderShowOrder"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.customer.CustomerShowOrders"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.restaurant.RestaurantShowOrders"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.customer.CustomerShowFood"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.customer.CustomerCart"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.customer.CustomerShowRestaurantFood"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.restaurant.RestaurantResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.customer.CustomerResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.rider.RiderResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.customer.CustomerDashboard"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".customer.CustomerGoogleSigninActivity" -->
+        <!-- android:exported="true" /> -->
+        <!-- <activity -->
+        <!-- android:name=".restaurant.RestaurantGoogleSigninActivity" -->
+        <!-- android:exported="true" /> -->
+        <activity
+            android:name="com.example.VEat.restaurant.RestaurantDashboard"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".rider.RiderGoogleSigninActivity" -->
+        <!-- android:exported="true" /> -->
+        <activity
+            android:name="com.example.VEat.rider.RiderDashboard"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.restaurant.RestaurantLogin"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.restaurant.RestaurantRegister"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.rider.RiderLogin"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.rider.RiderRegister"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.customer.CustomerRegister"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.customer.CustomerLogin"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VEat.MainActivity"
+            android:exported="true">
+
+            <!-- [START firebase_service] -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <!-- Change this key with your own key -->
+        <meta-data
+            android:name=""
+
+            android:value="rzp_test_dLBMKiGUPHmQQi" />
+    </application>
+
+</manifest>

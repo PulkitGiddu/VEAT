@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VEat</string>
+    <string name="title_food_customer">Welcome to VEat Student</string>
+    <string name="title_food_resturant">Welcome to VEat</string>
+    <string name="title_food_rider">Welcome to VEat Rider</string>
+    <string name="start_payment">Start Payment</string>
+    <string name="registration_token">Registration Token</string>
+    <string name="your_device_registration_token">Your Device Registration token</string>
+    <string name="type_custom_message">Type Custom Message</string>
+    <string name="type_mobile_no">Type Mobile No.</string>
+    <string name="send_sms">Send SMS</string>
+</resources>

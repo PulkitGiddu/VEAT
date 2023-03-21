@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040685689580",
+    "firebase_url": "https://veat-149a3-default-rtdb.firebaseio.com",
+    "project_id": "veat-149a3",
+    "storage_bucket": "veat-149a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040685689580:android:0920a749625953919f93c9",
+        "android_client_info": {
+          "package_name": "com.example.fooddeliverfortrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040685689580-bd65bgltdogngj2u04n6bduv4np7gafd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQLDzYPAB792PczxV6Q9oecvsygn6vQqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040685689580-bd65bgltdogngj2u04n6bduv4np7gafd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
